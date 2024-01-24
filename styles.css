@@ -5,13 +5,13 @@
 
 }
 body{
-    height: 800px;
+    height: 1500px;
     margin-left: 2%;
 }
 header{
-    width: 98%;
+    width: 100%;
     height: 22%;    
-    margin-bottom:2% ;
+    margin-bottom:20px ;
     line-height: 50px;
 }
 .cabeza{   
@@ -26,29 +26,30 @@ header{
     
 }
 #sect1{
-    margin-bottom: 3%;
+    margin-bottom: 20px;
     width: 97%;
     height: 50%;
     background-color: olivedrab;
     color: red;
     border: 1px solid darkslategray;
-    float: left;
+
 
 }
 
 #sect2{
-    margin-bottom:2% ;
+
     height: 30%;
+    margin-bottom: 20px; 
 }
 .cuerpo{
     margin-right: 1%;
     width: 31.5%;
-    height: 50%;
+    height: 100%;
     background-color: blue;
     color: red;
     border: 1px solid darkslategray;
     float: left;
-    margin-bottom:2% ;
+
 }
 .piso{
     margin-right: 1%;
@@ -65,20 +66,19 @@ header{
 @media(max-width: 768px){
     header{
         width: 98%;
-        height: 10%;    
-        margin-bottom:15%;
-        line-height: 50px;
+        height: 20%;    
+        margin-bottom:20px;
     }
 
     .cabeza{   
 
         width: 100%;
-        height: 100%;
+        height: 50%;
         background-color: orange;
         color: red;
         border: 1px solid darkslategray;
         float: left;
-        margin-bottom:1%;
+        margin-bottom:3px;
         margin-right: 3%;
     
         
@@ -86,36 +86,28 @@ header{
     #sect1{
         margin: 0.1%;
         width: 98%;
-        height: 50%;
+        height: 30%;
         background-color: olivedrab;
         color: red;
         border: 1px solid darkslategray;
-        float: left;
 
-        margin-bottom: 2%;
+        margin-bottom: 20px;
     
     }
     
     #sect2{
-        width: 98%;
-        height: 30%;
-        margin-bottom: 60%;
+        height: 10%;
+        margin-bottom: 20px;
     }
-    .cuerpo{
-        margin-bottom:   1%;
-        width: 99.5%;
-        height: 30%;
-        background-color: blue;
-        color: red;
-        border: 1px solid darkslategray;
-        float: left;
-    
-    }
+#pie{        height: 10%;
+    margin-bottom: 20px;
+
+}
     .piso{
-        margin-bottom:   1%;
+        margin-bottom:   2px;
         margin-right:   1%;
         width: 48%;
-        height: 100px;
+        height: 100%;
         background-color: gray;
         color: red;
         border: 1px solid darkslategray;
@@ -130,11 +122,17 @@ header{
 
     
     }
+
+    #pie{
+
+        height: 30%;
+        margin-bottom: 20px; 
+    }
     .cuerpo{
-
-        height: 70%;
-
-    
+        float: none;
+        height: 30%;
+        margin-bottom:   5px;
+    width: 100%;
     }
     .piso{
         margin-bottom:   1%;
